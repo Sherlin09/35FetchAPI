@@ -7,7 +7,7 @@ function obtenerDatos() {
     const url = 'data/empleado.json';
     fetch(url)
         .then( respuesta => respuesta.json() )
-        .then( resultado => mostrarHTML(resultado))
+        .then( resultado => mostrarHTML(resultado));
 }
 
 function mostrarHTML(empleados) {
